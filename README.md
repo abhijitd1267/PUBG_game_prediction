@@ -8,7 +8,7 @@ This project predicts the winning placement percentile (`winPlacePerc`) in PUBG 
 
 - **Dataset:** PUBG_Game_Prediction_data.csv (4.4M rows, 29 columns)  
 - **Key Steps:** Import libraries, read/clean data, feature engineering (e.g., normalized kills/damage, team aggregates), train CatBoost model.  
-- **Performance:** RMSE ~0.08, R² ~0.93  
+- **Performance:** RMSE = 0.08, R² = 0.93  
 
 For full details, see [PUBG Game Prediction.ipynb](PUBG%20Game%20Prediction.ipynb).
 
@@ -79,7 +79,7 @@ model.fit(xtrain, ytrain, eval_set=(xtest, ytest), use_best_model=True)
 ```
 
 - Feature importance plotted (e.g., walkDistance highest).  
-- Predictions: **RMSE 0.08, R² 0.93**.
+- Predictions: **RMSE = 0.08, R² = 0.93**.
 
 <center><img src="https://media.giphy.com/media/KB89dMAtH79VIvxNCW/giphy.gif"></center>
 
